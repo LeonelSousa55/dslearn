@@ -28,6 +28,9 @@ public class Offer implements Serializable {
 	@JoinColumn(name = "course_id")
 	private Course course;
 
+	public Offer() {
+	}
+
 	public Offer(Long id, String edition, Instant startMoment, Instant endMoment, Course course) {
 		super();
 		this.id = id;
