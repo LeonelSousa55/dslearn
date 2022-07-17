@@ -21,3 +21,7 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Atividade corrigida', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', FALSE, 'https://link', 1);
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Atividade corrigida', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', FALSE, 'https://link', 2);
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Atividade corrigida', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', FALSE, 'https://link', 3);
+
+INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://cdn.pixabay.com/photo/2020/05/31/09/40/online-course-5242018_1280.jpg', 1, 1);
+INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://cdn.pixabay.com/photo/2020/05/31/09/40/online-course-5242018_1280.jpg', 2, 1);
+INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://cdn.pixabay.com/photo/2020/05/31/09/40/online-course-5242018_1280.jpg', 0, 1);
